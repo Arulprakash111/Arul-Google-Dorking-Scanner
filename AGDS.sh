@@ -6,10 +6,10 @@
 # specific web-site: common admin panels, the widespread file types and    #
 # path traversal. The 100% automated.					   #
 ############################################################################
-# Author:   Ivan Glinkin                                                   #
-# Contact:  mail@ivanglinkin.com                                           #
-# Twitter:  https://twitter.com/glinkinivan                                #
-# LinkedIn: https://www.linkedin.com/in/ivanglinkin/                       #
+# Author:   Arul Prakash                                                   #
+# Contact:  arul@gmail.com                                                 #
+# Twitter:                                                                 #
+# LinkedIn: https://www.linkedin.com/in/Arulprakash/                       #
 ############################################################################
 
 # Variables
@@ -1039,16 +1039,16 @@ useragentlength=${#useragentsarray[@]};
 echo -e "";
 echo -e "$ORANGE╔═══════════════════════════════════════════════════════════════════════════╗$CLEAR_FONT";
 echo -e "$ORANGE║\t\t\t\t\t\t\t\t\t    ║$CLEAR_FONT";
-echo -e "$ORANGE║$CLEAR_FONT$GREEN_BOLD\t\t\t    Fast Google Dorks Scan \t\t\t    $CLEAR_FONT$ORANGE║$CLEAR_FONT";
+echo -e "$ORANGE║$CLEAR_FONT$GREEN_BOLD\t\t\t    Arul Google Dorking Scanner \t\t\t    $CLEAR_FONT$ORANGE║$CLEAR_FONT";
 echo -e "$ORANGE║\t\t\t\t\t\t\t\t\t    ║\e[00m";
 echo -e "$ORANGE╚═══════════════════════════════════════════════════════════════════════════╝$CLEAR_FONT";
 echo -e "";
-echo -e "$ORANGE[ ! ] https://www.linkedin.com/in/IvanGlinkin/ | https://x.com/glinkinivan$CLEAR_FONT";
+echo -e "$ORANGE[ ! ] https://www.linkedin.com/in/Arulprakash/ | https://x.com/glinkinivan$CLEAR_FONT";
 
 # Check the version
 checktheversion=$(echo "$version < $onlineversion" | bc -l)
 if [ "$checktheversion" -eq 1 ]; then
-    echo -e "$RED_BOLD[ ! ] You current FGDS version ($version) is outdated!\n[ ! ] The latest version is$CLEAR_FONT $GREEN_BOLD$onlineversion $CLEAR_FONT\n$RED_BOLD[ ! ] You can download the latest version by executing the next command:\n[ ! ]$CLEAR_FONT$GREEN_BOLD git clone https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan.git $CLEAR_FONT";
+    echo -e "$RED_BOLD[ ! ] You current AGDS version ($version) is outdated!\n[ ! ] The latest version is$CLEAR_FONT $GREEN_BOLD$onlineversion $CLEAR_FONT\n$RED_BOLD[ ! ] You can download the latest version by executing the next command:\n[ ! ]$CLEAR_FONT$GREEN_BOLD git clone https://github.com/Arulprakash111/Arul-Google-Dorking-Scanner.git $CLEAR_FONT";
 else
     echo -e "$ORANGE[ ! ] Version: $version (latest)$CLEAR_FONT";
 fi
