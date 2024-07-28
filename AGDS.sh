@@ -25,7 +25,7 @@ gsite="site:$domain" 		## Google Site
 folder="outputs"		## Output folder name
 
 ## Request the repository
-onlinevar=`curl -s https://raw.githubusercontent.com/IvanGlinkin/Fast-Google-Dorks-Scan/master/settings.conf`
+onlinevar=`curl -s https://raw.githubusercontent.com/Arulprakash111/Arul-Google-Dorking-Scanner/master/settings.conf`
 onlineversion=`echo $onlinevar | awk -F\" '{print $2}'`		# Latest version
 onlineupdatedate=`echo $onlinevar | awk -F\" '{print $4}'`	# The date of release
 sponsorstartdate=`echo $onlinevar | awk -F\" '{print $6}'`	# Sponsor start date 
