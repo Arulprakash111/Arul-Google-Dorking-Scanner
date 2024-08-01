@@ -4,20 +4,20 @@ Usage example:
 cd Arul-Google-Dorking-Scanner
 ```
 ```
-chmod +x FGDS.sh
+chmod +x AGDS.sh
 ```
 ```
-./FGDS.sh megacorp.one
+./AGDS.sh megacorp.one
 ```
 
 or
 ```
-bash ./FGDS.sh megacorp.one
+bash ./AGDS.sh megacorp.one
 ```
 
 with proxy
 
-bash ./FGDS.sh megacorp.one 192.168.1.1 8080
+bash ./AGDS.sh megacorp.one 192.168.1.1 8080
 
 This will work beatifully on Kali but an ultimately universal way is through Docker. Just run
 
